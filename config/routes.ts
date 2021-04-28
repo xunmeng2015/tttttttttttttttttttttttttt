@@ -26,6 +26,13 @@
     name: 'layout',
     icon: 'smile',
     component: '../layout/BasicLayout',
+    // routes: [
+    //     {
+    //       path: '/layout/main',
+    //       name: 'layoutMain',
+    //       component: './mainPage'
+    //     }
+    // ]
   },
   {
     path: '/test',

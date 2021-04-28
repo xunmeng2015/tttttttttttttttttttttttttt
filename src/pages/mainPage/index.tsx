@@ -13,30 +13,8 @@ import React, { useState, useRef } from 'react';
 // import UpdateForm from './components/UpdateForm';
 // import { rule, addRule, updateRule, removeRule } from '@/services/ant-design-pro/api';
 
-
-const test: React.FC = () => {
-  return (
-    <div>
-      <NavBar
-        mode="light"
-        icon={<Icon type="left" />}
-        onLeftClick={() => console.log('onLeftClick')}
-        // rightContent={[
-        //   <Icon key="0" type="search" style={{ marginRight: '16px' }} />,
-        //   <Icon key="1" type="ellipsis" />,
-        // ]}
-      >NavBar</NavBar>
-
-      {/* <NavBar
-        mode="dark"
-        leftContent="Back"
-        rightContent={[
-          <Icon key="0" type="search" style={{ marginRight: '16px' }} />,
-          <Icon key="1" type="ellipsis" />,
-        ]}
-      >NavBar</NavBar> */}
-    </div>
-  )
+const MainPage: React.FC = () => {
+  return <div>tab1</div>;
 };
 
-export default test
+export default MainPage;
